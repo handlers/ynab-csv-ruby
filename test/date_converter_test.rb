@@ -14,4 +14,10 @@ class DateConverterTest < Minitest::Test
 
     assert_equal DateConverter.new(date_string).to_date, Date.new(2017, 8, 1)
   end
+
+  def test_to_date_without_slashes
+    date_string = "Dec 2012"
+
+    assert_equal DateConverter.new(date_string).to_date, Date.new(2012, 12)
+  end
 end
