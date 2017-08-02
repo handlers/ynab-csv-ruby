@@ -1,0 +1,3 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","08/01/2017","Groceries, Inc.","Mandatory Expenses: Groceries","Mandatory Expenses","Groceries","Chicken a la king ingredients",$21.05,$0.00,"Cleared"
+"Savings","","08/01/2017","Deposit from JobCo","Inflow: To be Budgeted","Inflow","To be Budgeted","Birthday Present from Uncle Herb",$0.00,$75.00,"Cleared"
