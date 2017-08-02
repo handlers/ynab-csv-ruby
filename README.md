@@ -1,6 +1,6 @@
 # 💾🎈💰 ynab-ruby 💰🎈💾
 
-This is a gem for reading data from [YNAB](ynab.com) CSV exports.
+This is a (WIP) gem for reading data from [YNAB](ynab.com) CSV exports.
 
 ## Types of CSVs
 
