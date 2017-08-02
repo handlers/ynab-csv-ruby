@@ -9,7 +9,7 @@ class Budget
   # Returns an Array of category month objects from the input CSV
   #
   # @return [Array<CategoryMonth>] an array of <CategoryMonth> objects.
-  def category_month
+  def category_months
     @category_months ||= cast_csv_to_category_months
   end
 
