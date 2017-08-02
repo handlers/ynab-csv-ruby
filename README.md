@@ -6,7 +6,7 @@ This is a (WIP) gem for reading data from [YNAB](ynab.com) CSV exports.
 
 When you export a budget from YNAB.com, you get two files:
 
-* `budget.csv`, which contains details of monthly, per-category budget goals
+* `budget.csv`, which contains details of monthly, per-category budget goals.
 * `register.csv`, which contains transactions and their metadata (accounts, 
 budget categories, memos, etc).
 
