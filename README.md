@@ -1,4 +1,4 @@
-# 💾🎈💰 ynab-ruby 💰🎈💾
+# 🎈💾💰 ynab-ruby 💰💾🎈
 
 This is a (WIP) gem for reading data from [YNAB](ynab.com) CSV exports.
 
