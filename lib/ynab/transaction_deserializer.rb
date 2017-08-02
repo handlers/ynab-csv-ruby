@@ -13,7 +13,7 @@ class TransactionDeserializer
     {
       account: row_hash["Account"],
       flag: row_hash["Flag"],
-      date: DateConverter.new(row_hash["Date"]).to_date,
+      date: row_hash["Date"],
       payee: row_hash["Payee"],
       category_group_and_category: row_hash["Category Group/Category"],
       category_group: row_hash["Category Group"],

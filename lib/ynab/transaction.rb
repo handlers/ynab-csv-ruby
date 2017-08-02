@@ -14,7 +14,7 @@ class Transaction
   def initialize(attr_hash)
     @account = attr_hash[:account]
     @flag = attr_hash[:flag]
-    @date = attr_hash[:date]
+    @date = DateConverter.new(attr_hash[:date]).to_date
     @payee = attr_hash[:payee]
     @category_group_and_category = attr_hash[:category_group_and_category]
     @category_group = attr_hash[:category_group]
