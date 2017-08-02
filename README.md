@@ -16,7 +16,7 @@ budget categories, memos, etc).
 
 The rows of a YNAB register CSV contain data on every individual transaction in
 any account/card connected to your YNAB login. The register is read in and
-parsed into Transaction objects. Outflow and inflow (how much you spent or made)
+parsed into `Transaction` objects. Outflow and inflow (how much you spent or made)
 are represented in cents.
 
 ```ruby
@@ -43,7 +43,7 @@ are represented in cents.
 The rows of a YNAB budget CSV contain data on how much money is being allocated
 and spent per month per category. This gem represents category activity during
 a month as a `CategoryMonth` object. Activity/available/budgeted are stored as
-number of centscents. You import a CSV and interact with it as follows:
+number of cents. You import a CSV and interact with it as follows:
 
 ```ruby
 [1] pry(main)> b = Budget.new("test/fixtures/budget.csv")
