@@ -8,12 +8,12 @@ class CategoryMonth
   attr_reader :available
 
   def initialize(attr_hash)
-    @month = attr_hash[:month]
+    @month = DateConverter.new(attr_hash[:month]).to_date
     @category_group_and_category = attr_hash[:category_group_and_category]
     @category_group = attr_hash[:category_group]
     @category = attr_hash[:category]
-    @budgeted = attr_hash[:budgeted]
-    @activity = attr_hash[:activity]
-    @available = attr_hash[:available]
+    @budgeted = CurrencyConverter.new(attr_hash[:budgeted]).to_cents
+    @activity = CurrencyConverter.new(attr_hash[:activity]).to_cents
+    @available = CurrencyConverter.new(attr_hash[:available]).to_cents
   end
 end
