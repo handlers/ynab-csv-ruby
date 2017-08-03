@@ -1,10 +1,10 @@
 require "minitest/autorun"
-require_relative "../lib/ynab"
+require_relative "../lib/ynab-csv"
 
 class TestBudget < Minitest::Test
   def setup
     fixture_file = File.join(File.dirname(__FILE__), "./fixtures/budget.csv")
-    @register = Budget.new(fixture_file)
+    @register = YnabCsv::Budget.new(fixture_file)
   end
 
   def test_cast_csv_to_category_months
@@ -12,7 +12,7 @@ class TestBudget < Minitest::Test
     assert_equal category_months.class, Array
 
     category_months.each do |category_month|
-      assert_equal category_month.class, CategoryMonth
+      assert_equal category_month.class, YnabCsv::CategoryMonth
     end
   end
 end
