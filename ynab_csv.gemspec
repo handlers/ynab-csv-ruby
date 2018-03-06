@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ['']
   s.email       = ''
   s.files       = ['lib/ynab_csv.rb']
-  s.homepage    = 'https://github.com/handlers/ynab_csv-csv-ruby'
+  s.homepage    = 'https://github.com/handlers/ynab-csv-ruby'
   s.license     = 'MIT'
 end
