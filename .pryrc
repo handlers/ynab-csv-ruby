@@ -1,1 +1,1 @@
-require_relative "lib/ynab-csv"
+require "lib/ynab_csv"
