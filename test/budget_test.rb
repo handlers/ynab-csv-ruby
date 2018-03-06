@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "../lib/ynab-csv"
+require_relative "../lib/ynab_csv"
 
 class TestBudget < Minitest::Test
   def setup
