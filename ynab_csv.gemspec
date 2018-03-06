@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ynab_csv'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2010-04-28'
   s.summary     = 'Reading data from YNAB CSV exports'
   s.description = 'Reading data from YNAB CSV exports'
